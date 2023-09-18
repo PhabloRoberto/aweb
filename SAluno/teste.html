@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background-color: #fff;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 30px;
+        }
+
+        .user-profile {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .user-info h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .user-info p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .user-info .edit-profile {
+            font-weight: bold;
+        }
+
+        .user-info .share-profile {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .story-circle {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background-color: #ff6e40;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .photo-grid img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 8px;
+            background-color: #fff;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram">
+        <div class="user-actions">
+            <i class="far fa-plus-square"></i>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+    </header>
+
+    <div class="user-profile">
+        <img src="https://via.placeholder.com/100x100" alt="Foto de perfil">
+        <div class="user-info">
+            <h1>Seu Nome de Usuário</h1>
+            <p>Edita perfil</p>
+            <p>Compartilhar perfil</p>
+        </div>
+    </div>
+
+    <div class="story-circle"></div>
+    <div class="story-circle"></div>
+    <div class="story-circle"></div>
+
+    <div class="photo-grid">
+        <img src="https://via.placeholder.com/300x300" alt="Foto 1">
+        <img src="https://via.placeholder.com/300x300" alt="Foto 2">
+        <img src="https://via.placeholder.com/300x300" alt="Foto 3">
+        <img src="https://via.placeholder.com/300x300" alt="Foto 4">
+        <img src="https://via.placeholder.com/300x300" alt="Foto 5">
+        <img src="https://via.placeholder.com/300x300" alt="Foto 6">
+        <!-- Adicione mais fotos aqui -->
+    </div>
+
+    <footer>
+        &copy; 2023 Instagram Clone
+    </footer>
+</body>
+</html>
