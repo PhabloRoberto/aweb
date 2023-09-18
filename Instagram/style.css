@@ -6,6 +6,7 @@
 body{
     background-color: #fff;
     font-size: 'Roboto', 'sans-serif';
+    max-width: 470px;
 }
 
 button, input, textarea, select {
