@@ -1,0 +1,100 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+header img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#home h1 {
+    font-size: 2em;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about {
+    background-color: #F5F5F5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#hours {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#hours table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#hours th, #hours td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#locations {
+    background-color: #F5F5F5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
