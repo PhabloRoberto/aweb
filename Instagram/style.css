@@ -197,6 +197,7 @@ button{
     left: 0;
     width: 100vw; 
     background-color: white;
+    max-width: 470px;
 }
 
 .imagem-P{
