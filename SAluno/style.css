@@ -1,51 +1,112 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-purple: #b040ff;
+}
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
-
 }
 
-.center{
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-dark1);
+    color: var(--color-white);
+}
+
+.photo{
+    width: 45px;
+    border-radius: 50%;
+    gap: 30px;
+}
+
+header, .nagivation_header{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2%;
-    background-color: black;
-    justify-content: space-around;
+    flex-direction: center;
     align-items: center;
 }
 
-.logo{
-    width: 200px;
-    background-color: black;
-}
-
 header{
-    padding: 20px 0;
-    background-color: rgb(10, 10, 10);
-}    
+    display: flex;
+    background-color: var(--color-dark2);
+    box-shadow: 1px 1px 4px var(--color-dark4);
+    height: 56px;
+    justify-content: space-between;
+    padding: 0 5%;
 
-.menu{ 
-    width: 50%;
-    background-color: rgb(14, 13, 13);   
 }
 
-.menu a{
-    color: rgb(247, 244, 244);
-    background-color: black;
+.nagivation_header{
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50%;
+    
     
 }
 
-img{
-    border-radius: 100%;
-    width: 50%;
+.nagivation_header a{
+    text-decoration: none;
+    color: var(--color-purple);
+    transition: 1s;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+.active{
+    
+    background-color: var(--color-dark3);
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.content{
+    text-align: center;
+    padding-top: 5em;
+    height: 100vh;
+    transition: 1s;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.corpo{
+    background-color: var(--color-white);
+}
+
+.photo-me{
+    margin:50px 50px 0 0;
+
+}
+    
+
+@media screen and (max-width: 414px){
+    .nagivation_header{
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    }
 }
 
 
-section{
-    color: rgb(214, 52, 52);
-}
+    
 
