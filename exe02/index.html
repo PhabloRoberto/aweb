@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificado Idade</title>
+</head>
+<body >
+    <header>
+        <p>Verificado a Idade</p>
+    </header>
+    <section>
+        <div id="square">
+            <p>Ano nascimento: <input type="number" name="verificado" id="nascAno" min="0"></p>
+            <p>Sexo
+                <input type="radio" name="redsex" checked>
+                <label for="mas">Masculino</label>
+
+                <input type="radio" name="redsex">
+                <label for="fem">Feminino</label>
+
+            </p>
+        </div>
+        <div id="res">
+            <input type="button" value="Verificar" onclick="verificar()">
+            <p>Resultado</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
